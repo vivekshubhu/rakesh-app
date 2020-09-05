@@ -1,0 +1,11 @@
+body {
+  background: #de99e9;
+}
+
+.wrapperDiv {
+  padding: 40px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
