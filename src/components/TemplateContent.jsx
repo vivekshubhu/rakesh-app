@@ -4,7 +4,7 @@ import Style from './../styles/template.module.css'
 const TemplateContent = () => {
     return (
         <div className="templates">
-            <div className="d-flex flex-wrap">
+            <div className="d-flex flex-wrap justify-content-between">
                 <div className="p-1">
                     <img className={Style.templateImage} src={require('./../images/template1.jpg')} alt="template" />
                 </div>

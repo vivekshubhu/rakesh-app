@@ -7,7 +7,7 @@ const Preview = () => {
     return (
         <div>
             <div className="d-flex mb-2">
-                <input type="text" style={{'outline':'none', 'width':'100%'}} />
+                <input type="text" className={Style.generateInput} />
                 <Button name="Generate" />
             </div>
             <div className="img-wapper">
