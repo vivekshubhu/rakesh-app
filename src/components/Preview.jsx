@@ -13,7 +13,7 @@ const Preview = () => {
             <div className="img-wapper">
                 <img className={Style.previewImg} src={Image} alt="preview" />
             </div>
-            <div class="pt-4 d-flex justify-content-between">
+            <div className="pt-4 d-flex justify-content-between">
                 <Button name="Download" />
                 <Button name="Share" />
             </div>

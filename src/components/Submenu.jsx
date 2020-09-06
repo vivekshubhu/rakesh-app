@@ -5,11 +5,13 @@ import TemplateContent from './TemplateContent';
 import LayoutContent from './LayoutContent';
 import { Route } from 'react-router-dom';
 
-const Submenu = ({ header }) => {
+const Submenu = () => {
+    const url = window.location.href;
+    const header = new URL(url).pathname.replace(/^\/+|\/+$/g, '');
     return (
             <div>
                 <div className={Style.submenu}>
-                    <p className={Style.header}>{header}</p>
+                    <p className={`text-capitalize ${Style.header}`}>{header?header:'Layout'}</p>
                     <Route path="/" exact component={LayoutContent}/>
                     <Route path="/template" component={TemplateContent} />
                     <Route path="/resize" component={ResizeContent} />

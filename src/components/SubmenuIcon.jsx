@@ -5,7 +5,7 @@ const SubmenuIcon = ({ iconClass, name }) => {
     return (
         <div className="mb-5">
             <div className={`text-center ${Style.socialIcon}`}>
-                <i class={`fa ${iconClass} fa-2x }`}></i>
+                <i className={`fa ${iconClass} fa-2x }`}></i>
             </div>
             <p className="my-2">{name}</p>
         </div>

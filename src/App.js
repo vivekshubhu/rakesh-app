@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <div className={Style.wrapperDiv}>
           <Preview />
-          <Submenu header="Social Profile" />
+          <Submenu />
           <Menus />
         </div>
       </div>
