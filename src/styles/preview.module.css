@@ -1,6 +1,6 @@
 .previewImg {
-    height: 500px;
-    width: 450px;
+    height: 460px;
+    width: 440px;
     object-fit: cover;
 }
 
@@ -9,4 +9,6 @@
     border-radius: .25rem;
     outline: none;
     width: 100%;
+    padding: 0 20px;
+    letter-spacing: 1px;
 }

@@ -8,3 +8,7 @@
 .menu p {
     text-decoration:none;
 }
+
+.activeMenu {
+    border: 2px solid #5d4ef5;
+}
